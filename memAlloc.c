@@ -13,8 +13,11 @@ int main(){
     
     x = temp;
 
-    //  since I have x now pointing at the new memory allocated with the temp variable, what is happening with the original memory
-    //  created with the x variable on line 6? How would I go about freeing up that memory so as to not cause a memory leak? 
+    /*
+    since I have x now pointing at the new memory allocated with the temp variable, what is 
+    happening with the original memory created with the x variable on line 6? How would I go 
+    about freeing up that memory so as to not cause a memory leak?
+    */
     
     x[3] = 13;
     x[4] = 15;
