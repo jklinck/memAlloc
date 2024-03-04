@@ -21,7 +21,7 @@ int main(){
         if(&temp[0] != &x[0]){
             free(x);
             /*
-            if during the reallocation it does not used the 3 original memory 
+            if during the reallocation it does not use the 3 original memory 
             addresses then I am freeing up the memory that x had allocated, 
             otherwise we do not want to free it right here because by freeing 
             x I would also be freeing up temp
