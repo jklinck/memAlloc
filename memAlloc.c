@@ -3,7 +3,7 @@
 
 int main(){
 
-	int* x = (int*)malloc(3 * sizeof(int));
+    int* x = (int*)malloc(3 * sizeof(int));
     
     x[0] = 7;
     x[1] = 9;
